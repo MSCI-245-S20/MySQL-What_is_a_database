@@ -143,16 +143,36 @@
   "type": "test",
   "taskId": "test-480230319",
   "source": {
-   "showName": true,
-   "answers": [],
-   "tokens": {
-    "blank": [],
-    "text": []
-   },
    "name": "Query operators",
-   "instructions": "A `sql-1-4.sql` file has been created and opened for you.\n\nWrite the following SQL statement:\n\n1.  _Select_ all the records from the `basic_info` table\n_Where_ birthdays are less or equal to 2016\nGet the records only if the _id_ is _between_ 1 and 5\nOrder by _id_ in a descending order\n\n---\nOnce you have completed these tasks, press the _Check It!_ button to have your solution assessed.",
+   "showName": true,
+   "instructions": "A `sql-1-4.sql` file has been created and opened for you.\n\nWrite the following SQL statement:\n\n1.  _Select_ all the records from the `basic_info` table\n_Where_ birthdays occur before 2016, and\nget the records only if the _id_ is _between_ 1 and 5, and\norder by _id_ in a descending order\n\n---\nOnce you have completed these tasks, press the _Check It!_ button to have your solution assessed.",
    "command": "node .guides/sqltests.js/sql-1-4.js",
-   "points": 1
+   "arePartialPointsAllowed": false,
+   "timeoutSeconds": 40,
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "points": 1,
+   "oneTimeTest": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Advanced Code Test"
+     }
+    ],
+    "files": [
+     "sql-1-4/sql-1-4.sql"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "sql-1-4/sql-1-4.sql"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
   }
  },
  {

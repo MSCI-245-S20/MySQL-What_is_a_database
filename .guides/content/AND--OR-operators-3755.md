@@ -14,11 +14,10 @@ Let's _source_ the results of _selecting_ data from the `basic_info` table meeti
 USE people;
 
 SELECT * FROM basic_info 
-WHERE birthday > '2016' -- Date must be a string with the greater or lower than operator
+WHERE birthday LIKE '2016%' -- birthday is a VARCHAR (string)
 AND id BETWEEN 6 AND 10 
 ORDER BY email ASC;
 ```
-
 Source the file:
 
 ```

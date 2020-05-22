@@ -16,6 +16,4 @@ Here's a detailed table of the available operators and their descriptions:
 | OR       | Displays a record if either the first condition OR the second condition is true |
 
 
-How about getting some _DATE_ datatype from the `basic_info` table of the `people` database by using the _greater than_ query operator?
-
-All right! Get your hands to code in the next section.
+All right! Let's practice some more in the next section.

@@ -27,4 +27,6 @@ And you should see this:
 7 rows in set (0.00 sec) 
 ```
 
+The `ASC` means ASCENDING (from A to Z).  If we want to order from Z to A, that is DESCENDING order, or `DESC` in SQL.
+
 Do you have what it takes to complete a challenge on ordering and limiting database queries? Go to the next section.

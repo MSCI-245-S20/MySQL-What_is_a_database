@@ -1,3 +1,5 @@
+These database assignments on Codio make use of the MySQL database.  When we work on Ruby on Rails later in the term, we will use Postgresql, which is another database.  For the most part, it is hard to tell the databases apart because both support SQL, but there can be small differences for parts of a database where there is not a standard such as SQL. Almost everything you learn working with MySQL is transferable to other SQL databases.
+
 The MySQL server is used to __persist the data__ (store the data) and provide a query interface for it (SQL).
 
 The MySQL client's purpose is to __allow you to use that query interface__ with SQL commands.

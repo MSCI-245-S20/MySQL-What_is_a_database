@@ -1,4 +1,5 @@
-A `birthdays.sql` file has been created and opened for you.
+A `birthdays.sql` file has been created and opened for you.  
+
 Click on it and type a _SELECT * FROM_ statement that gets only the rows that contain birthdays for 2016 plus sorting them by date order:
 
 ```
@@ -7,11 +8,15 @@ Click on it and type a _SELECT * FROM_ statement that gets only the rows that co
 USE people;
 
 SELECT * FROM basic_info 
-WHERE birthday > '2016' 
+WHERE birthday LIKE '2016%' -- all birthday strings that start with 2016
 ORDER BY birthday;
 ```
 
-Source it: 
+We need to always keep in mind how we have stored our data.  In the basic_info table, `birthday` is stored as a `VARCHAR`, which means it is a variable length string.  The `birthday` attribute is not stored as a `DATE` type even though it looks like one!  Thus, we need to treat the data as a string and not a DATE type.
+
+The `LIKE` operator allows us to do string searches.  The `'2016%'` pattern will match all strings that start with `2016`.  See https://www.w3schools.com/sql/sql_like.asp for more info.
+
+Source the birthdays.sql file: 
 
 ```
 mysql> source birthdays.sql

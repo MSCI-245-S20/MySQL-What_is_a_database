@@ -290,7 +290,7 @@
   "source": {
    "name": "Query operators",
    "showName": true,
-   "instructions": "A `sql-1-4.sql` file has been created and opened for you.\n\nWrite the following SQL statement:\n\n1.  _Select_ all the records from the `basic_info` table\n_Where_ birthdays occur before 2016, and\nget the records only if the _id_ is _between_ 1 and 5, and\norder by _id_ in a descending order\n\n---\nOnce you have completed these tasks, press the _Check It!_ button to have your solution assessed.",
+   "instructions": "A `sql-1-4.sql` file has been created and opened for you.\n\nWrite the following SQL statement:\n\n1.  _Select_ all the records from the `basic_info` table\n_Where_ birthday occurs before 2016, and\nget the records only if the _id_ is _between_ 1 and 5, and\norder by _id_ in a descending order\n\n---\nOnce you have completed these tasks, press the _Check It!_ button to have your solution assessed.",
    "command": "node --no-warnings .guides/sqltests.js/sql-1-4.js",
    "arePartialPointsAllowed": false,
    "timeoutSeconds": 40,
@@ -324,16 +324,36 @@
   "type": "test",
   "taskId": "test-783857216",
   "source": {
-   "showName": true,
-   "answers": [],
-   "tokens": {
-    "blank": [],
-    "text": []
-   },
    "name": "SQL SELECT",
+   "showName": true,
    "instructions": "A new `directory` database has been created. \n\nEvaluate your recent SQL understanding by writing the following statements in the `sql-1-5.sql` file:\n\n1. Switch to the `directory` database\n2. Display the available tables of the `directory` database\n3. Query all the records from the `company_profiles` table\n\n---\nOnce you have completed these tasks, press the _Check It!_ button to have your solution assessed.\n\n\n",
-   "command": "node .guides/sqltests.js/sql-1-5.js",
-   "points": 1
+   "command": "node --no-warnings .guides/sqltests.js/sql-1-5.js",
+   "arePartialPointsAllowed": false,
+   "timeoutSeconds": 40,
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "points": 1,
+   "oneTimeTest": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Advanced Code Test"
+     }
+    ],
+    "files": [
+     "sql-1-5/sql-1-5.sql"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "sql-1-5/sql-1-5.sql"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
   }
  }
 ]

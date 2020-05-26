@@ -2,7 +2,7 @@ Time to be more specific with our SQL queries.
 
 Whenever you may want to select specific data from a database table, the _WHERE_ clause of the _SELECT FROM_ data manipulation statement comes very handy.
 
-The `people.sql` has been opened for you. 
+The `people.sql` has been opened for you. **To view the file, look for an additional tab.  You can have multiple tabs open at once in Codio.**
 
 An advantage of writing SQL code in a `*.sql` file is that we can use newlines to make our code more readable.
 
